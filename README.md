@@ -16,19 +16,19 @@ Magellan is the official command-line client for RIPE Atlas.
 View a basic report for a public measurement:
 
 ```console
-$ docker run -rm insready/magellan ripe-atlas report <measurement_id>
+$ docker run --rm insready/magellan ripe-atlas report <measurement_id>
 ```
 
 View the live stream for a measurement:
 
 ```console
-$ docker run -rm insready/magellan ripe-atlas stream <measurement_id>
+$ docker run --rm insready/magellan ripe-atlas stream <measurement_id>
 ```
 
 Get a list of probes in ASN 3333:
 
 ```console
-$ docker run -rm insready/magellan ripe-atlas probes --asn 3333
+$ docker run --rm insready/magellan ripe-atlas probes --asn 3333
 ```
 
 For full documentation, please see [ReadTheDocs](https://ripe-atlas-tools.readthedocs.org)
