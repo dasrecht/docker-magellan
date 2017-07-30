@@ -11,6 +11,15 @@ Magellan is the official command-line client for RIPE Atlas.
 
 > [Magellan Documentation](https://ripe-atlas-tools.readthedocs.org/)
 
+# How to build this image
+
+If you want to build the image locally you can do this by running the following command.
+
+```console
+$ docker build -t insready/magellan .
+```
+
+
 # How to use this image
 
 View a basic report for a public measurement:
